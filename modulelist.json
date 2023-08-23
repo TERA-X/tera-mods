@@ -1,0 +1,267 @@
+[
+{
+	"disableAutoUpdate": false,
+	"name": "Translate",
+	"author": "NMods / HakuryuuDom / teralove",
+	"version": "1.8",
+	"description": "Translates incoming and outgoing messages to another language using Google Translate.",
+	"options": {
+		"niceName": "Translate"
+	},
+   	"servers": ["https://raw.githubusercontent.com/nmods/translate-chat/master/"],
+   	"keywords": ["network"]
+},
+{
+    "name": "Auto-Guildquest",
+    "options": {
+        "niceName": "Auto-Guildquest",
+        "guiName": "Auto-Guildquest",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1
+    },
+    "author": "PsykoDev/ Maintainer KYGAS",
+    "description": "Auto-Guildquest",
+    "version": "100.02",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/AutoQuest/master/"],
+    "disableAutoUpdate": false,
+    "keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "Tera Recorder",
+    "author": "KYGAS",
+    "description": "Saves a session of your gameplay for the sake of recreating your character in the future. Or revisiting any of your memories.",
+    "options": {
+        "niceName": "TR",
+        "guiName": "Tera Recorder",
+        "reloadable": false
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/tera-recorder/master/"],
+	"keywords": ["network"]
+},
+{
+    "name": "Remove-Warrior-Clone",
+    "author": "KYGAS",
+    "description": "A fix for players experiencing issues with warrior clone buff.",
+    "version": "1.0",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/Remove-Warrior-Clone/master/"],
+    "options": {
+        "cliName": "Remove-Warrior-Clone",
+        "guiName": "Remove-Warrior-Clone",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "disableAutoUpdate": false,
+	"keywords": ["network"]
+},
+{
+    "name": "shinra-meter",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/shinra-toolbox-TeraX/master/"],
+    "supportUrl": "https://github.com/X0RPR0/shinra-toolbox-TeraX/issues",
+    "author": "Foglio, Gl0, neowutran and others",
+    "description": "Shinra DPS meter.",
+    "disableAutoUpdate": false,
+    "keywords": ["client"],
+    "options": {
+        "cliName": "shinra-meter",
+        "guiName": "Shinra Meter (beta)"
+    },
+    "dependencies": {
+        "external-interface": "https://raw.githubusercontent.com/X0RPR0/external-interface/master/module.json"
+    },
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "Next-Generation-Skill-Prediction",
+    "author": "Powah, Maintainer KYGAS",
+    "options": {
+        "niceName": "NGSP"
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/NGSP/master/"],
+    "supportUrl": "https://github.com/X0RPR0/NGSP/issues",
+    "drmKey": "nice drm",
+    "conflicts": ["zsync","aa-zsync","cooldowns","cooldowns-master","fastfire","fastfire-master","fast-fire","fast-fire-master","lockons","lockons-master","lockons-light","lockons-light-master","ping-compensation","ping-remover","skill-prediction-master","skill-prediction-plus"],
+    "keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "party-deaths-notifier",
+    "options": {
+        "cliName": "PDN",
+        "guiName": "Party deaths notifier",
+        "settingsVersion": 1,
+        "settingsFile": "./settings/settings.json",
+        "settingsMigrator": "./lib/migration.js"
+    },
+    "author": "KYGAS",
+    "description": "Simple TERA Toolbox module to show beams at dead party members position.",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/party-death-notifier/master/"],
+    "supportUrl": "https://github.com/X0RPR0/party-death-notifier/issues",
+    "keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "fps-utils",
+    "author": "KYGAS",
+    "homepage": "https://github.com/X0RPR0/fps-utils/wiki",
+    "readmePath": "./README.md",
+    "description": "A free script filled with features dedicated to improve your fps.",
+    "contributors": ["Saegusae","codeagon","SerenTera","Kyoukaya","SaltyMonkey","Leyki","KYGAS"],
+    "version": "19",
+    "options": {
+        "niceName": "FPS",
+        "cliName": "FPS",
+        "guiName": "Fps Utils",
+        "settingsVersion": 19,
+        "settingsFile": "config.json",
+        "settingsMigrator": "./lib/setting_migration.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/fps-utils/master/"],
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "author": "KYGAS",
+    "options": {
+        "niceName": "Banker",
+        "guiName": "Banker",
+        "loadOn": "versioncheck",
+        "reloadable": true,
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings.js",
+        "settingsAutosaveOnClose": true
+    },
+    "supportUrl": "https://github.com/X0RPR0/banker",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/banker/master/"],
+    "name": "banker",
+    "description": "Deposit items faster",
+    "packets": {
+        "C_GET_WARE_ITEM": 3,
+        "C_PUT_WARE_ITEM": 3,
+        "C_VIEW_WARE": 2,
+        "S_CANCEL_CONTRACT": 1,
+        "S_REQUEST_CONTRACT": 1,
+        "S_VIEW_WARE_EX": 2
+    },
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/tera-settings-saver/master/"],
+    "author": "Kasea/ KYGAS",
+    "name": "tera-settings-saver",
+    "options": {
+        "guiName": "Setting saver"
+    },
+    "description": "Saves your settings",
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "fps-manager",
+    "options": {
+        "cliName": "FPM",
+        "guiName": "FPS Manager",
+        "settingsVersion": 1,
+        "settingsFile": "./settings/settings.json",
+        "settingsMigrator": "./data/migrationData.js"
+    },
+    "author": "SaltyMonkey",
+    "description": "FPS Manager is modern and extremely customizable module for Tera Toolbox which can help to solve annoyance by some ingame messages and fps drops.",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/fps-manager/master/"],
+    "supportUrl": "https://github.com/SaltyMonkey/fps-manager/issues",
+    "conflicts": ["fps-utils"],
+	"keywords": ["network"]
+},
+{
+    "name": "instant-everything",
+    "author": "Caali / Pinkie Pie / m0py / Snug / beng / KYGAS",
+    "description": "Removes the annoying animation and skips the progress bar for enchanting, upgrading, soulbinding, dismantling, and merging items.",
+    "version": "1.0",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/instant-everything/master/"],
+    "options": {
+        "cliName": "InstantEverything",
+        "guiName": "InstantEverything",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "conflicts": ["instant-enchant","instant-upgrade","instant-soulbind","instant-dismantle","instant-merge"],
+    "disableAutoUpdate": false,
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "skill-resets",
+    "author": "KYGAS",
+    "description": "Shows pop up message whenever a skill resets.",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/skill-resets/master/"],
+    "supportUrl": "https://github.com/X0RPR0/skill-resets/issues"
+},
+{
+    "name": "external-interface",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/external-interface/master/"],
+    "author": "Foglio/ KYGAS",
+    "description": "Generic interface to feed TERA packets to external applications via HTTP and TCP connections.",
+    "disableAutoUpdate": false,
+    "keywords": ["network"],
+    "options": {
+        "cliName": "external-interface",
+        "guiName": "External interface"
+    }
+},
+{
+    "disableAutoUpdate": false,
+    "name": "generic-box-opener-item-user",
+    "author": "KYGAS",
+    "description": "Mass-Opens boxes",
+    "options": {
+        "niceName": "Box",
+        "guiName": "Generic Box Opener & Item user"
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/generic-box-opener/master/"],
+    "supportUrl": "https://github.com/X0RPR0/generic-box-opener/issues",
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "auto-cutscene",
+    "author": "KYGAS",
+    "description": "Automatically cancels all cutscene movies",
+    "supportUrl": "https://github.com/X0RPR0/AutoCutscene",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/AutoCutscene/master/"],
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "ABB",
+    "author": "KYGAS",
+    "description": "A tera-proxy module that prevents you from getting body blocked by pt.",
+    "version": "1.2.6",
+    "options": {
+        "niceName": "Anti Body Block",
+        "guiName": "ABB"
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/AntiBodyBlock/master/"],
+    "supportUrl": "https://github.com/X0RPR0/AntiBodyBlock/issues",
+	"keywords": ["network"]
+},
+{
+    "disableAutoUpdate": false,
+    "name": "AFKer",
+    "author": "KYGAS",
+    "description": "A tera-proxy module that prevents you from getting back to the character select screen.\nOnce activated, the server's AFK check will not kick you out of the game.",
+    "version": "1.2.6",
+    "options": {
+        "niceName": "AFK",
+        "guiName": "AFKer"
+    },
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/AFKer/master/"],
+    "supportUrl": "https://github.com/X0RPR0/AFKer/issues",
+	"keywords": ["network"]
+}
+]
