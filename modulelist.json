@@ -28,20 +28,19 @@
     "keywords": ["network"]
 },
 {
-    "name": "True Everfull Nostrum",
-    "options": {
+	"disableAutoUpdate": false,
+	"name": "true-everful-nostrum",
+	"author": "Caali / X0RPR0",
+	"description": "Ensures that your Elite/Tera Club Everful Nostrum/Noctenium is up 100% of the time.",
+	"version": "2.2",
+	"options": {
 		"cliName": "TEN",
 		"guiName": "True Everful Nostrum",
 		"settingsVersion": 3,
 		"settingsFile": "config.json",
 		"settingsMigrator": "settings_migrator.js"
 	},
-    "author": "Caali / X0RPR0",
-    "description": "Ensures that your Elite/Tera Club Everful Nostrum/Noctenium is up 100% of the time",
-    "version": "100.02",
-    "servers": ["https://raw.githubusercontent.com/X0RPR0/True-Everfull-Nostrum/master/"],
-    "disableAutoUpdate": false,
-    "keywords": ["network"]
+	"servers": ["https://raw.githubusercontent.com/X0RPR0/True-Everfull-Nostrum/master/"]
 },
 {
     "disableAutoUpdate": false,
