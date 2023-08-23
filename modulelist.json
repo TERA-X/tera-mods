@@ -28,6 +28,22 @@
     "keywords": ["network"]
 },
 {
+    "name": "True Everfull Nostrum",
+    "options": {
+        "niceName": "True Everfull Nostrum",
+        "guiName": "TEN",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1
+    },
+    "author": "Caali / X0RPR0",
+    "description": "Auto-Guildquest",
+    "version": "100.02",
+    "servers": ["https://raw.githubusercontent.com/X0RPR0/True-Everfull-Nostrum/master/"],
+    "disableAutoUpdate": false,
+    "keywords": ["network"]
+},
+{
     "disableAutoUpdate": false,
     "name": "Tera Recorder",
     "author": "KYGAS",
