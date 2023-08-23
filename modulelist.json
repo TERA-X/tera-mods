@@ -30,14 +30,14 @@
 {
     "name": "True Everfull Nostrum",
     "options": {
-        "niceName": "True Everfull Nostrum",
-        "guiName": "TEN",
+        "niceName": "TEN",
+        "guiName": "True Everful Nostrum",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 1
     },
     "author": "Caali / X0RPR0",
-    "description": "True Everfull Nostrum",
+    "description": "Ensures that your Elite/Tera Club Everful Nostrum/Noctenium is up 100% of the time",
     "version": "100.02",
     "servers": ["https://raw.githubusercontent.com/X0RPR0/True-Everfull-Nostrum/master/"],
     "disableAutoUpdate": false,
